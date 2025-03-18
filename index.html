@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Bliss</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="image.png" alt="Fashion Bliss">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <!-- Main Hero Section -->
+    <section class="main">
+        <h1>Welcome to <span>Fashion Bliss</span></h1>
+        <p id="outputs">Discover trendy styles, shop the latest collections, and elevate your fashion game.</p>
+        <button onclick="exploreNow()">Explore Now</button>
+    </section>
+
+    <!-- Interactive Section -->
+    <div class="js-output">
+        <h2>Personalized Fashion Picks</h2>
+        <p id="output">Get customized fashion recommendations based on your style preferences.</p>
+        <button type="button" onclick="getRecommendations()">Get Recommendations</button>
+    </div>
+
+    <!-- Link to JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
