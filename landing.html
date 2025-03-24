@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Bliss</title>
+    <link rel="stylesheet" href="landing1.css"> <!-- Link to CSS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery CDN -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Fashion Bliss</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <nav id="navLinks">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Fashion Bliss</h1>
+        <p>Your one-stop shop for the latest in fashion trends.</p>
+        <button id="shopNowBtn" onclick="getStarted()">Shop Now</button>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop">
+        <h2>Explore Our Latest Collections</h2>
+        <div class="product-grid">
+            <div class="product"><img src="Dress1.png" alt="Dress 1"></div>
+            <div class="product"><img src="dress2.png" alt="Dress 2"></div>
+            <div class="product"><img src="dress3.png" alt="Dress 3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Fashion Bliss</h2>
+        <p>Fashion Bliss is your ultimate fashion destination, bringing you the best in trendy and stylish clothing. We offer a variety of options for every occasion.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries, email us at <a href="mailto:support@fashionbliss.com">support@fashionbliss.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fashion Bliss. All rights reserved.</p>
+    </footer>
+
+    <script src="landing2.js"></script> <!-- Link to JavaScript -->
+</body>
+</html>
